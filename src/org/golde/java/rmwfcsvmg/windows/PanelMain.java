@@ -12,14 +12,14 @@ import javax.swing.JComboBox;
 import javax.swing.JFileChooser;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JProgressBar;
 import javax.swing.JTextField;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 import org.golde.java.rmwfcsvmg.EnumForgeVersion;
 import org.golde.java.rmwfcsvmg.Main;
 import org.golde.java.rmwfcsvmg.ThreadReplaceCSV;
-import org.golde.java.rmwfcsvmg.utils.StringUtils;
-import javax.swing.JProgressBar;
+import org.golde.java.rmwfcsvmg.utils.JavaUtils;
 
 @SuppressWarnings({"serial", "rawtypes", "unchecked"}) //Ugg java D:
 public class PanelMain extends JPanel{
@@ -145,7 +145,7 @@ public class PanelMain extends JPanel{
 	private void updateGoButton() {
 		boolean shouldGoButtonBeEnabled = true;
 		if(selectedForgeVersion == EnumForgeVersion.Snapshot) {
-			if(!StringUtils.isStringEmpty(textFieldCustomMCPSnapshotVersion.getText()) && !StringUtils.isStringEmpty(textFieldCustomMCPMinecraftVersion.getText())) {
+			if(!JavaUtils.isStringEmpty(textFieldCustomMCPSnapshotVersion.getText()) && !JavaUtils.isStringEmpty(textFieldCustomMCPMinecraftVersion.getText())) {
 				EnumForgeVersion.Snapshot.setCustom(textFieldCustomMCPSnapshotVersion.getText(), textFieldCustomMCPMinecraftVersion.getText());
 			}else {
 				shouldGoButtonBeEnabled = false;

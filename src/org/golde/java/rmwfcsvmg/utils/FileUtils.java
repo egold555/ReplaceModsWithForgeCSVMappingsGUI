@@ -27,8 +27,8 @@ public class FileUtils {
 			fos.close();
 			return fName;
 		}catch(Exception e) {
-			e.printStackTrace();
-			return e.getLocalizedMessage();
+			System.err.println("Could not find ZIP @: " + url + extention);
+			return null;
 		}
 	}
 

@@ -4,7 +4,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.golde.java.rmwfcsvmg.utils.StringUtils;
+import org.golde.java.rmwfcsvmg.utils.JavaUtils;
 
 public enum EnumForgeVersion {
 
@@ -25,7 +25,7 @@ public enum EnumForgeVersion {
 	EnumForgeVersion(String zipLink, String goodName) {
 		this.zipLink = zipLink;
 		this.goodName = goodName;
-		if(!StringUtils.isStringEmpty(goodName)) {
+		if(!JavaUtils.isStringEmpty(goodName)) {
 			extractionDirectory = new File(Main.FILE_DATA_MAPPINGS_STABLE, goodName);
 		}
 	}

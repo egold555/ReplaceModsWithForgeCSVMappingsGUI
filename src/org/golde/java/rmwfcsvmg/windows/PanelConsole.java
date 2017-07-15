@@ -1,9 +1,13 @@
 package org.golde.java.rmwfcsvmg.windows;
 
-import javax.swing.JFrame;
-import javax.swing.JTextField;
 import java.awt.BorderLayout;
 
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
+/*
+ * TODO: Actuall console window
+ */
 @SuppressWarnings({"serial", "rawtypes", "unchecked"}) //Ugg java D:
 public class PanelConsole extends JFrame {
 	private static JTextField textField;
