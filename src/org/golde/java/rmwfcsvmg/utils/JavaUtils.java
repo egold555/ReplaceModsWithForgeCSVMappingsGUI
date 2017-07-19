@@ -8,6 +8,19 @@ import javax.swing.JOptionPane;
 
 public class JavaUtils {
 
+	public enum MessageLogo{
+		ERROR(0),
+		INFORMATION(1),
+		WARNING(2),
+		QUESTION(3),
+		NONE(-1);
+		
+		public final int INT_VALUE;
+		MessageLogo(int value){
+			INT_VALUE = value;
+		}
+	}
+	
 	public static boolean isStringEmpty(String s) {
 		
 		if(s == null) {return true;}
@@ -21,11 +34,20 @@ public class JavaUtils {
 		StringWriter writer = new StringWriter();
 		e.printStackTrace(new PrintWriter(writer));
 		String message = writer.toString();
-		simpleError(message, parent);
+		dialog(message, parent, "Error", MessageLogo.ERROR);
+	}
+	
+	public static void simpleError(String e, Component parent) {
+		dialog(e, parent, "Error", MessageLogo.ERROR);
+	}
+	
+	public static void successMessage(String message, Component parent) {
+		dialog(message, parent, "Success", MessageLogo.INFORMATION);
 	}
 
-	public static void simpleError(String message, Component parent)
+	public static void dialog(String message, Component parent, String title, MessageLogo logo)
 	{
-		JOptionPane.showMessageDialog(parent, message, "Error", JOptionPane.ERROR_MESSAGE);
+		JOptionPane.showMessageDialog(parent, message, title, logo.INT_VALUE);
+		System.out.println("Dialog: " + message);
 	}
 }
