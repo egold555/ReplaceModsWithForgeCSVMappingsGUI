@@ -66,6 +66,7 @@ public class ThreadReplaceCSV extends Thread{
 			FileUtils.listFilesIncludingSub(Main.FILE_CODE, filesToReplace);
 			log("====Replace CSV Start====");
 			for(File file:filesToReplace) {
+				if(!FileUtils.getFileExtension(file).equals("java")) {continue;}
 				log("Replacing " + file.getName());
 				FileUtils.replaceSelected(file, FileUtils.gatherReplacementsFromFile(mappings.getCSV_FIELDS()));
 				FileUtils.replaceSelected(file, FileUtils.gatherReplacementsFromFile(mappings.getCSV_METHODS()));

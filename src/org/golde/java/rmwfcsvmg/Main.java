@@ -34,7 +34,6 @@ public class Main {
 		//Folder stuff
 		FILE_CODE.mkdir();
 		
-		
 		FILE_DATA.mkdir();
 		FILE_DATA_TEMP.mkdir();
 		FILE_DATA_MAPPINGS.mkdir();
@@ -108,7 +107,7 @@ public class Main {
 	}
 	
 	static void quit() {
-		console.quit();
+		//console.quit();
 		System.exit(0);
 	}
 	
