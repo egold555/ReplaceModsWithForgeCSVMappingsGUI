@@ -25,7 +25,7 @@ public class Main {
 	public static File FILE_DATA_MAPPINGS_SNAPSHOT = new File(FILE_DATA_MAPPINGS, "snapshot");
 	
 	public static final String PROGRAM_NAME = "Mod CSV Replacer";
-	public static final String PROGRAM_VERSION = "v1.0 Beta";
+	public static final String PROGRAM_VERSION = "v1.1 Beta";
 	
 	public static PanelConsole console =  new PanelConsole();
 	
