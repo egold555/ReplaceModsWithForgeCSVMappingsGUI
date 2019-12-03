@@ -48,6 +48,6 @@ public class JavaUtils {
 	public static void dialog(String message, Component parent, String title, MessageLogo logo)
 	{
 		JOptionPane.showMessageDialog(parent, message, title, logo.INT_VALUE);
-		System.out.println("Dialog: " + message);
+		System.out.println("Dialog: " + title);
 	}
 }

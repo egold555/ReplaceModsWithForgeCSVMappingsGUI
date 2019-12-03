@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="C:/Users/Eric/workspace/#DEPENDENCYS/opencsv-3.9.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Eric/workspace/ReplaceModsWithForgeCSVMappingsGUI/lib/Fernflower.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eric/eclipse-workspace/ReplaceModsWithForgeCSVMappingsGUI/lib/opencsv-3.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/eric/eclipse-workspace/ReplaceModsWithForgeCSVMappingsGUI/lib/Fernflower.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

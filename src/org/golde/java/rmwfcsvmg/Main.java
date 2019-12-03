@@ -50,7 +50,7 @@ public class Main {
 		frame.setResizable(false);
 		frame.setLocationRelativeTo(null);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setVisible(true);
+		
 
         JMenu menu1 = new JMenu("Program");
         
@@ -103,7 +103,7 @@ public class Main {
             }
         });
         
-       
+        frame.setVisible(true);
 	}
 	
 	static void quit() {
