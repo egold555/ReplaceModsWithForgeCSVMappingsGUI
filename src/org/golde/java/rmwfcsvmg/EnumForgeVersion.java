@@ -18,7 +18,8 @@ public enum EnumForgeVersion {
 	v1_11("http://export.mcpbot.bspk.rs/mcp_stable/32-1.11/mcp_stable-32-1.11.zip", "1.11"),
 	v1_12("http://export.mcpbot.bspk.rs/mcp_stable/39-1.12/mcp_stable-39-1.12.zip", "1.12"),
 	v1_13_2("http://export.mcpbot.bspk.rs/mcp_stable/47-1.13.2/mcp_stable-47-1.13.2.zip", "1.13.2"),
-	v1_14_2("http://export.mcpbot.bspk.rs/mcp_stable/53-1.14.2/mcp_stable-53-1.14.2.zip", "1.14.2"),
+	v1_14_4("http://export.mcpbot.bspk.rs/mcp_stable/53-1.14.2/mcp_stable-53-1.14.2.zip", "1.14.4"),
+	v1_15("http://export.mcpbot.bspk.rs/mcp_stable/60-1.15/mcp_stable-60-1.15.zip", "1.15"),
 	Snapshot("", "Snapshot"),
 	;
 
