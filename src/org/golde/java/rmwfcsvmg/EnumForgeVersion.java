@@ -8,17 +8,17 @@ import org.golde.java.rmwfcsvmg.utils.JavaUtils;
 
 public enum EnumForgeVersion {
 
-	v1_7_10("http://export.mcpbot.bspk.rs/mcp_stable/12-1.7.10/mcp_stable-12-1.7.10.zip", "1.7.10"),
-	v1_8("http://export.mcpbot.bspk.rs/mcp_stable/18-1.8/mcp_stable-18-1.8.zip", "1.8"),
-	v1_8_8("http://export.mcpbot.bspk.rs/mcp_stable/20-1.8.8/mcp_stable-20-1.8.8.zip", "1.8.8"),
-	v1_8_9("http://export.mcpbot.bspk.rs/mcp_stable/22-1.8.9/mcp_stable-22-1.8.9.zip", "1.8.9"),
-	v1_9("http://export.mcpbot.bspk.rs/mcp_stable/24-1.9/mcp_stable-24-1.9.zip", "1.9"),
-	v1_9_4("http://export.mcpbot.bspk.rs/mcp_stable/26-1.9.4/mcp_stable-26-1.9.4.zip", "1.9.4"),
-	v1_10_2("http://export.mcpbot.bspk.rs/mcp_stable/29-1.10.2/mcp_stable-29-1.10.2.zip", "1.10.2"),
-	v1_11("http://export.mcpbot.bspk.rs/mcp_stable/32-1.11/mcp_stable-32-1.11.zip", "1.11"),
-	v1_12("http://export.mcpbot.bspk.rs/mcp_stable/39-1.12/mcp_stable-39-1.12.zip", "1.12"),
-	v1_13_2("http://export.mcpbot.bspk.rs/mcp_stable/47-1.13.2/mcp_stable-47-1.13.2.zip", "1.13.2"),
-	v1_14_2("http://export.mcpbot.bspk.rs/mcp_stable/53-1.14.2/mcp_stable-53-1.14.2.zip", "1.14.2"),
+	v1_7_10("http://export.mcpbot.golde.org/mcp_stable/12-1.7.10/mcp_stable-12-1.7.10.zip", "1.7.10"),
+	v1_8("http://export.mcpbot.golde.org/mcp_stable/18-1.8/mcp_stable-18-1.8.zip", "1.8"),
+	v1_8_8("http://export.mcpbot.golde.org/mcp_stable/20-1.8.8/mcp_stable-20-1.8.8.zip", "1.8.8"),
+	v1_8_9("http://export.mcpbot.golde.org/mcp_stable/22-1.8.9/mcp_stable-22-1.8.9.zip", "1.8.9"),
+	v1_9("http://export.mcpbot.golde.org/mcp_stable/24-1.9/mcp_stable-24-1.9.zip", "1.9"),
+	v1_9_4("http://export.mcpbot.golde.org/mcp_stable/26-1.9.4/mcp_stable-26-1.9.4.zip", "1.9.4"),
+	v1_10_2("http://export.mcpbot.golde.org/mcp_stable/29-1.10.2/mcp_stable-29-1.10.2.zip", "1.10.2"),
+	v1_11("http://export.mcpbot.golde.org/mcp_stable/32-1.11/mcp_stable-32-1.11.zip", "1.11"),
+	v1_12("http://export.mcpbot.golde.org/mcp_stable/39-1.12/mcp_stable-39-1.12.zip", "1.12"),
+	v1_13_2("http://export.mcpbot.golde.org/mcp_stable/47-1.13.2/mcp_stable-47-1.13.2.zip", "1.13.2"),
+	v1_14_2("http://export.mcpbot.golde.org/mcp_stable/53-1.14.2/mcp_stable-53-1.14.2.zip", "1.14.2"),
 	Snapshot("", "Snapshot"),
 	;
 
